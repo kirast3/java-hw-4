@@ -1,3 +1,4 @@
+
 class ControlPanelTest {
 
     public static void main(String[] args) {
@@ -11,9 +12,8 @@ class ControlPanel {
 
 
     public void control() {
-        //altimeter = new Altimeter();
-        //airGauge = new AirGauge();
-        System.out.println(altimeter.toString() + " " + airGauge.toString());
+        System.out.println(altimeter.toString());
+        System.out.println(airGauge.toString());
     }
 
 }
